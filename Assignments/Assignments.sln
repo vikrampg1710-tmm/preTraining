@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A03.P03 - Top 7 Alphabets in Dictionairy", "..\..\Spark\Academy23 Assignments\A03.P03 - Top 7 Alphabets in Dictionairy\A03.P03 - Top 7 Alphabets in Dictionairy.csproj", "{CA326168-FCE0-4E0E-AFB8-D02CF2B7E7CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A03.P01 - Spelling Bee Game", "..\..\Spark\Academy23 Assignments\A02\A03.P01 - Spelling Bee Game.csproj", "{27C3D84C-53BB-4E95-B0E5-79B35FEDDA79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A06 - NQueens Problem", "..\..\Spark\Academy23 Assignments\A04 - NQueens Problem\A06 - NQueens Problem.csproj", "{F9D1CB4D-11D8-4CA2-BBDB-C5CF2BA0D058}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A07 - DoubleParse", "..\..\Spark\Academy23 Assignments\A07\A07 - DoubleParse.csproj", "{BCD23EF4-0869-49AE-BB3B-75AFD0D694F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A09 - Queue", "..\..\Spark\Academy23 Assignments\A09 - Queue\A09 - Queue.csproj", "{8648DA81-960D-4D4F-9032-34A1C9FF1149}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A10 - DoubleEndedQueue", "..\..\Spark\Academy23 Assignments\A10 - DoubleEndedQueue\A10 - DoubleEndedQueue.csproj", "{36116263-66C2-4A5A-B1BE-0F770350CCFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A10 - FileName Parse", "..\..\Spark\Academy23 Assignments\A10 - File Name Parse\A10 - FileName Parse.csproj", "{79CBEEDD-59FA-44E6-BA29-828A4BABCE06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A14 - Anagrams", "..\..\Spark\Academy23 Assignments\A14 - Anagrams\A14 - Anagrams.csproj", "{72126D2A-2B02-4A6A-A73A-BA66EEE65F8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A15 - Priority Queue", "..\..\Spark\Academy23 Assignments\A15 - Priority Queue\A15 - Priority Queue.csproj", "{59914F11-3F82-4018-95D7-54CA4BF61C37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A15 - Wordle Game", "..\..\Spark\Academy23 Assignments\A15 - Wordle Game\A15 - Wordle Game.csproj", "{7DAD1A02-C434-473B-BD4C-6F5B8B56B305}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A03.P02 - Guess Game by LSB", "..\..\Spark\Academy23 Assignments\ConsoleApp1\A03.P02 - Guess Game by LSB.csproj", "{20EC3E41-D905-441E-9433-59BCF92A184E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA326168-FCE0-4E0E-AFB8-D02CF2B7E7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA326168-FCE0-4E0E-AFB8-D02CF2B7E7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA326168-FCE0-4E0E-AFB8-D02CF2B7E7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA326168-FCE0-4E0E-AFB8-D02CF2B7E7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C3D84C-53BB-4E95-B0E5-79B35FEDDA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C3D84C-53BB-4E95-B0E5-79B35FEDDA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C3D84C-53BB-4E95-B0E5-79B35FEDDA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C3D84C-53BB-4E95-B0E5-79B35FEDDA79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D1CB4D-11D8-4CA2-BBDB-C5CF2BA0D058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D1CB4D-11D8-4CA2-BBDB-C5CF2BA0D058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D1CB4D-11D8-4CA2-BBDB-C5CF2BA0D058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D1CB4D-11D8-4CA2-BBDB-C5CF2BA0D058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD23EF4-0869-49AE-BB3B-75AFD0D694F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD23EF4-0869-49AE-BB3B-75AFD0D694F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD23EF4-0869-49AE-BB3B-75AFD0D694F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD23EF4-0869-49AE-BB3B-75AFD0D694F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8648DA81-960D-4D4F-9032-34A1C9FF1149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8648DA81-960D-4D4F-9032-34A1C9FF1149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8648DA81-960D-4D4F-9032-34A1C9FF1149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8648DA81-960D-4D4F-9032-34A1C9FF1149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36116263-66C2-4A5A-B1BE-0F770350CCFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36116263-66C2-4A5A-B1BE-0F770350CCFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36116263-66C2-4A5A-B1BE-0F770350CCFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36116263-66C2-4A5A-B1BE-0F770350CCFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79CBEEDD-59FA-44E6-BA29-828A4BABCE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CBEEDD-59FA-44E6-BA29-828A4BABCE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CBEEDD-59FA-44E6-BA29-828A4BABCE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CBEEDD-59FA-44E6-BA29-828A4BABCE06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72126D2A-2B02-4A6A-A73A-BA66EEE65F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72126D2A-2B02-4A6A-A73A-BA66EEE65F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72126D2A-2B02-4A6A-A73A-BA66EEE65F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72126D2A-2B02-4A6A-A73A-BA66EEE65F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59914F11-3F82-4018-95D7-54CA4BF61C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59914F11-3F82-4018-95D7-54CA4BF61C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59914F11-3F82-4018-95D7-54CA4BF61C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59914F11-3F82-4018-95D7-54CA4BF61C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAD1A02-C434-473B-BD4C-6F5B8B56B305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAD1A02-C434-473B-BD4C-6F5B8B56B305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAD1A02-C434-473B-BD4C-6F5B8B56B305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAD1A02-C434-473B-BD4C-6F5B8B56B305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20EC3E41-D905-441E-9433-59BCF92A184E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20EC3E41-D905-441E-9433-59BCF92A184E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20EC3E41-D905-441E-9433-59BCF92A184E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20EC3E41-D905-441E-9433-59BCF92A184E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9B55989-697D-49AB-A32F-9F0D003214F2}
+	EndGlobalSection
+EndGlobal
