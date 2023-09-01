@@ -167,9 +167,9 @@ public class TDoubleEndedQueue<T> {
 
    // Function to Display array using Unicodes
    public void DisplayElements (T[] a) {
-      for (int i = 0; i <= a.Length; i++) Console.Write (i == a.Length ? "┐\n" : (i == 0 ? $"┌──{AlignmentFor ("─", StringOf (a[i]))}" : $"┬──{AlignmentFor ("─", StringOf (a[i]))}")); // HEADER
-      for (int i = 0; i <= a.Length; i++) Console.Write (i == a.Length ? "│\n" : $"│ {StringOf (a[i])} ");                                                                              // MIDDLE
-      for (int i = 0; i <= a.Length; i++) Console.Write (i == a.Length ? "┘\n" : (i == 0 ? $"└──{AlignmentFor ("─", StringOf (a[i]))}" : $"┴──{AlignmentFor ("─", StringOf (a[i]))}")); // FOOTER
+      for (int i = 0; i <= a.Length; i++) Console.Write (i == a.Length ? "┐\n" : (i == 0 ? $"┌──{Align ("─", StringOf (a[i]))}" : $"┬──{Align ("─", StringOf (a[i]))}")); // HEADER
+      for (int i = 0; i <= a.Length; i++) Console.Write (i == a.Length ? "│\n" : $"│ {StringOf (a[i])} ");                                                                // MIDDLE
+      for (int i = 0; i <= a.Length; i++) Console.Write (i == a.Length ? "┘\n" : (i == 0 ? $"└──{Align ("─", StringOf (a[i]))}" : $"┴──{Align ("─", StringOf (a[i]))}")); // FOOTER
 
       // Local Function to return space or array element as string.
       string StringOf (T s) {
@@ -178,7 +178,7 @@ public class TDoubleEndedQueue<T> {
       }
 
       // Local Function for aligning the box sizes according to the filler.
-      string AlignmentFor (string s1, string s2) {
+      string Align (string s1, string s2) {
          return string.Concat (Enumerable.Repeat (s1, s2.Length));
       }
    }

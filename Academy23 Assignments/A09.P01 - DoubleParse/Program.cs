@@ -114,7 +114,7 @@ bool IsValid (string word) {
 
       if (wordE.Contains ('.')) return false;  // If exponential part has decimal point, ELIMINATE.
       if (wordE.Length == 0) return false;     // If there is no character after 'e', ELIMINATE.
-      if (word.Remove (word.IndexOf ('e'), wordE.Length + 1).Length == 0) return false;  // If the string starts from 'e', ELIMINATE.
+      if (wordi.Length == 0) return false;  // If the string starts from 'e', ELIMINATE.
    }
 
    // If there is no character after or before decimal point, ELIMINATE.
@@ -125,7 +125,7 @@ bool IsValid (string word) {
 
    // If the decimal point is present after the sign symbol, ELIMINATE
    if ((word.Contains ('+') || word.Contains ('-')) && word.Contains ('.'))
-      if ((word.IndexOf ('.') == word.IndexOf ('+') + 1) || (word.IndexOf ('.') == word.IndexOf ('-') + 1)) return false;
+      if ((word.IndexOf ('.') == (word.IndexOf ('+') + 1) ||  word.IndexOf ('-') + 1)) return false;
 
    // If the string doesn't contain any number character, ELIMINATE.
    if (!NumList.Any (word.Contains)) return false;
@@ -140,10 +140,8 @@ bool IsValid (string word) {
    if (count1 > 1 || count2 > 1) return false;
 
    if (!word.Contains ('e')) {
-      if (word.Contains ('+'))
-         if (word.IndexOf ('+') != 0) return false;
-      if (word.Contains ('-'))
-         if (word.IndexOf ('-') != 0) return false;
+      if (word.Contains ('+') && (word.IndexOf ('+') != 0) return false;
+      if (word.Contains ('-')) (word.IndexOf ('-') != 0) return false;
       if (count3 > 1 || count4 > 1) return false; // If the integer part has more than one '+' or '-', ELIMINATE.
    }
 
