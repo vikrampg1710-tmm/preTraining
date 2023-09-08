@@ -3,8 +3,6 @@
 using System;
 using System.Collections.Generic;
 
-
-
 // Test Cases:
 Console.WriteLine ("Program to check whether entered string is a valid file path or not:\n\n");
 List<string> Inputs = new () { "C:\\Repo\\Filename.cs", "D:\\\\Filename.docx", "D:Filename.txt", "C:/Repo1/Repo2/Repo3/Filename.pdf",
