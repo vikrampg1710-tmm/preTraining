@@ -15,9 +15,9 @@ public class Q9 {
             bool above = true;
             //For the 1st half of the diamond, above is true.  For the next half, above is false;
             for (int i = (above ? 1 : row); above ? (i <= row) : (i >= 1); i += above ? 1 : -1) {
-               //above ? for (int i = 1; i <= row; i++) : for (int i = row; i >= 1; i--)
+            //above ? for (int i = 1; i <= row; i++) : for (int i = row; i >= 1; i--)
                Console.CursorLeft = midPos - i + 1;
-               for (int j = 1; j <= 2 * i - 1; j++) 
+               for (int j = 1; j <= 2 * i - 1; j++)
                   Console.Write ("*", Console.ForegroundColor = (j % 2 == 0) ? Magenta : Blue);
                Console.WriteLine ();
                //Console.WriteLine (new string ('*', (2 * i) - 1), Console.ForegroundColor = (i % 2 == 0) ? Green : Yellow);

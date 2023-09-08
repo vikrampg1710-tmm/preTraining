@@ -3,30 +3,49 @@ using static System.ConsoleColor;
 
 namespace Spark;
 
-public class Q19 {
-   public static void NthArmstrongNum () {
-      Console.WriteLine ("\x1B[4m" + "Calculate Nth Armstrong Number:-" + "\x1B[0m");
+public class Q18 {
+   public static void main () {
+      Console.WriteLine ("\x1B[4m" + "Armstrong Number:-" + "\x1B[0m");
       for (; ; ) {
-         int nCount = 0, result = 0;
-         Console.Write ("\nEnter a positive integer (1 to 27): ");
-         if (int.TryParse (Console.ReadLine (), out int N) && N > 0 && N < 28) {
-            for (int i = 0; nCount <= N; i++) {
-               if (IsArmsNum(i)) nCount++;
-               if (nCount == N) result = i + 1;
+         Console.WriteLine ("\n\t(1) Nth Armstrong Number Computer\n\t(2) Check for Armstrong Number");
+         Console.Write ("\nPlease type 1 or 2: ");
+         var input = Console.ReadLine ();
+         switch (input) {
+            case "1": NthArmstrongNum (); break;
+            case "2": {
+                  Console.Write ("\nEnter a positive number: ");
+                  if (int.TryParse (Console.ReadLine (), out int num) && num > 0) {
+                     Console.WriteLine ($"{num} is {(IsArmsNum (num) ? "" : "NOT ")}an Armstrong Number ", Console.ForegroundColor = Yellow);
+                     Console.ResetColor ();
+                  }
+                  else continue;
+                  break;
             }
-            Console.ForegroundColor = Green;
-            Console.WriteLine ($"{N}th Armstrong Number = {result}.");
-            Console.ResetColor ();
+            default: break;
          }
-         else if (N < 0 || N > 30) Console.Write ("Incorrect input!");
+         
          Console.Write ("\nWant to try again? (y/n): ");
          if (char.ToLower (Console.ReadKey ().KeyChar) != 'y') {
-            Console.WriteLine ("\nProgram terminated due to incorrect input.", Console.ForegroundColor = Red);
+            Console.WriteLine ("\nProgram terminated.", Console.ForegroundColor = Red);
             Console.ResetColor ();
             break;
          }
       }
-      Console.WriteLine ();
+   }
+
+   public static void NthArmstrongNum () {
+      int nCount = 0, result = 0;
+      Console.Write ("\nEnter a positive integer (1 to 27): ");
+      if (int.TryParse (Console.ReadLine (), out int n) && n > 0 && n < 28) {
+         for (int i = 0; nCount <= n; i++) {
+            if (IsArmsNum(i)) nCount++;
+            if (nCount == n) result = i + 1;
+         }
+         Console.ForegroundColor = Green;
+         Console.WriteLine ($"{n}th Armstrong Number = {result}.");
+         Console.ResetColor ();
+      }
+      else if (n < 0 || n > 30) Console.Write ("Incorrect input!");
    }
 
    public static bool IsArmsNum (int num) {
