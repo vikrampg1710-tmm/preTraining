@@ -10,7 +10,7 @@ public class Q7 {
    public static void PrintChessBoard () {
       Console.OutputEncoding = System.Text.Encoding.UTF8;
       Console.WriteLine ("\n\x1B[4m" + "Printing 8x8 Chess Board:\n" + "\x1B[0m");
-      List<string> black = new () { "♜", "♞", "♝", "♚", "♛", "♝", "♞", "♜", "♟", " " };
+      List<string> black = new () { "♜", "♞", "♝", "♛", "♚", "♝", "♞", "♜", "♟", " " };
       List<string> white = new () { "♖", "♘", "♗", "♕", "♔", "♗", "♘", "♖", "♙", " " };
 
       #region By Box-Unicodes:
